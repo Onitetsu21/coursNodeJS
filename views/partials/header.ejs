@@ -1,0 +1,25 @@
+<header>
+    <div>
+        <img class="logo" src="logo_testMyElephant_black.png" alt="logoSite" />
+    </div>
+    <div class="menu">
+        <li>
+            <ul class="menuTitle" onclick="loadHome(title)">
+                <% if (title == "home") { %>
+                    <strong >Home</strong>
+                <% }else{ %>
+                    Home
+                <% } %>
+            </ul>
+            <ul class="menuTitle" onclick="loadAbout(title)">
+                <% if (title == "about") { %>
+                    <strong>About</strong>
+                <% }else{ %>
+                    about
+                <% } %>
+            </ul>
+        </li>
+    </div>
+</header>
+
+
