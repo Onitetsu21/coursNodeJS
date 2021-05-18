@@ -1,13 +1,8 @@
 <section class="homeSection">
     <h1 class="title">CA C'EST UN HOME</h1>
     <p> 
-
-        <% people.name.forEach(person  => { %>
-            <% if (person == "yumi") { %>
-                <h4> ohayô  <%= person %> </h4>
-            <% } else { %>
-                <h4><%= people.sayHello %>   <%= person %> </h4>
-            <% } %> 
-        <% }) %>  
+        <% people.forEach(person  => { %>
+                <h4>Salut   <%= person.firstName %> </h4>
+        <% }) %>
     </p> 
 </section>
